@@ -1,0 +1,15 @@
+.Container {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(163, 255, 148, 0.73);
+}
+
+.Text {
+    position: relative;
+    margin: auto;
+    color: #6c6c6c;
+    text-align: center;
+}

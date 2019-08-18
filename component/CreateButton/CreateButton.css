@@ -1,0 +1,57 @@
+.Button {
+    position: fixed;
+    top: 70vh;
+    left: 91vw;
+    border-radius: 50%;
+    background-color: #ffb3e6;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966888;
+    color: #962e87;
+    font-family: inherit;
+    /*font-size: 1.4rem;*/
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #962457;
+}
+
+.Button:hover, .Button:active {
+    background-color: #ff354a;
+    border: 1px solid #96427c;
+    color: white;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+    box-shadow: none;
+}
+
+.Button:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 500px) {
+    .Button {
+        left: 78%;
+        top: 80%;
+        padding: 5px 15px;
+    }
+}

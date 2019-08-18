@@ -1,0 +1,92 @@
+.twoItems___aBJvu {
+    width: 69%;
+    position: relative;
+}
+
+.singleItem___1KiZl {
+    width: 34%;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .singleItem___1KiZl {
+        width: 100%;
+    }
+    .twoItems___aBJvu {
+        width: 100%;
+    }
+}
+.Container___3X84b {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(163, 255, 148, 0.73);
+}
+
+.Text___8GvVh {
+    position: relative;
+    margin: auto;
+    color: #6c6c6c;
+    text-align: center;
+}
+.Button___UisQP {
+    position: fixed;
+    top: 70vh;
+    left: 91vw;
+    border-radius: 50%;
+    background-color: #ffb3e6;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966888;
+    color: #962e87;
+    font-family: inherit;
+    /*font-size: 1.4rem;*/
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #962457;
+}
+
+.Button___UisQP:hover, .Button___UisQP:active {
+    background-color: #ff354a;
+    border: 1px solid #96427c;
+    color: white;
+}
+
+.Button___UisQP:focus {
+    outline: none;
+}
+
+.Button___UisQP:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+    box-shadow: none;
+}
+
+.Button___UisQP:not(:disabled) {
+    animation: enable___1w1RR 0.3s linear;
+}
+
+@keyframes enable___1w1RR {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 500px) {
+    .Button___UisQP {
+        left: 78%;
+        top: 80%;
+        padding: 5px 15px;
+    }
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/
